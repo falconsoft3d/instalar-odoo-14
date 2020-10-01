@@ -1,4 +1,4 @@
-# Instalación de Odoo 12
+# Instalación de Odoo 14 CE
 
 Marlon Falcón Hernández | Madrid, España
 - ERP, CRM y Software

@@ -49,7 +49,7 @@ nginx -s reload
 ## 4 - Creamos Carpeta Extra-addons
 ```linux
 mkdir /opt/extra-addons
-chown odoo: /opt/odoo/ -R
+chown odoo: /opt/extra-addons/ -R
 ```
 
 ## 5- Instalar wkhtmltopdf para generar PDF en odoo

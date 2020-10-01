@@ -54,8 +54,9 @@ chown odoo: /opt/extra-addons/ -R
 
 ## 5- Instalar wkhtmltopdf para generar PDF en odoo
 ```linux
-sudo wget http://se.archive.ubuntu.com/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb
-sudo dpkg -i libpng12-0_1.2.54-1ubuntu1_amd64.deb
+wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.3/wkhtmltox-0.12.3_linux-generic-amd64.tar.xz
+tar vxf wkhtmltox-0.12.3_linux-generic-amd64.tar.xz 
+cp wkhtmltox/bin/wk* /usr/local/bin/
 ```
 
 ```linux

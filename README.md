@@ -24,7 +24,7 @@ apt-get update && apt-get upgrade -y
 ## 2- Instalamos odoo 14
 ```linux
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
-echo "deb http://nightly.odoo.com/11.0/nightly/deb/ ./" >> /etc/apt/sources.list
+echo "deb http://nightly.odoo.com/14.0/nightly/deb/ ./" >> /etc/apt/sources.list
 apt-get update && apt-get install odoo
 ```
 

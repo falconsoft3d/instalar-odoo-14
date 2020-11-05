@@ -63,9 +63,10 @@ sudo cp /usr/local/bin/wkhtmltopdf /usr/bin
 sudo cp /usr/local/bin/wkhtmltoimage /usr/bin
 ```
 
-# 6- configuramos el conf de odoo
+# 6- Configuramos el conf de odoo
 ```
 nano /etc/odoo/odoo.conf
+limit_time_real = 360
 ```
 
 # Tools

@@ -69,7 +69,7 @@ nano /etc/odoo/odoo.conf
 limit_time_real = 360
 ```
 
-# Tools
+# 7- Tools
 ```
 service odoo restart
 tail -f /var/log/odoo/odoo-server.log

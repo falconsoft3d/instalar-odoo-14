@@ -52,7 +52,13 @@ mkdir /opt/extra-addons
 chown odoo: /opt/extra-addons/ -R
 ```
 
-## 5- Instalar wkhtmltopdf para generar PDF en odoo
+## 5 - Creamos Carpeta Respaldos
+```linux
+mkdir /opt/backup
+chown odoo: /opt/backup/ -R
+```
+
+## 6- Instalar wkhtmltopdf para generar PDF en odoo
 ```
 sudo wget http://se.archive.ubuntu.com/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb
 sudo dpkg -i libpng12-0_1.2.54-1ubuntu1_amd64.deb
@@ -63,13 +69,13 @@ sudo cp /usr/local/bin/wkhtmltopdf /usr/bin
 sudo cp /usr/local/bin/wkhtmltoimage /usr/bin
 ```
 
-# 6- Configuramos el conf de odoo
+# 7- Configuramos el conf de odoo
 ```
 nano /etc/odoo/odoo.conf
 limit_time_real = 360
 ```
 
-# 7- Tools
+# 8- Tools
 ```
 service odoo restart
 tail -f /var/log/odoo/odoo-server.log

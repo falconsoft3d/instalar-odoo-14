@@ -81,4 +81,9 @@ service odoo restart
 tail -f /var/log/odoo/odoo-server.log
 ```
 
+# 9- Generamos la clave publica
+```
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+```
 

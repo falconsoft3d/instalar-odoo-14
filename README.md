@@ -87,7 +87,7 @@ ssh-keygen
 cat ~/.ssh/id_rsa.pub
 ```
 
-# 10- Generamos la clave pública
+# 10- Instalamos las librerias de Python
 ```
 pip3 install xmltodict
 pip3 install dicttoxml

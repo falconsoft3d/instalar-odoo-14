@@ -87,3 +87,18 @@ ssh-keygen
 cat ~/.ssh/id_rsa.pub
 ```
 
+# 10- Generamos la clave publica
+```
+pip3 install xmltodict
+pip3 install dicttoxml
+pip3 install cchardet
+pip3 install cryptography
+sudo pip3 install pyOpenSSL
+6) M2Crypto
+  - sudo apt-get install python-m2crypto
+  - sudo apt-get install libssl-dev swig python3-dev gcc
+  - sudo pip3 install M2Crypto
+sudo pip3 install SOAPpy
+sudo pip3 install signxml
+sudo pip3 install pdf417gen
+```

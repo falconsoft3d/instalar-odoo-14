@@ -124,9 +124,11 @@ web.base.url.freeze
 True
 ```
 
-# 11- Instalando el certificado digital ( https://certbot.eff.org/lets-encrypt/ubuntuxenial-nginx )
+# 11- buscamos los repos oficiales de odoo
 ```
 mkdir /opt/extra-addons-odoo
 chown odoo: /opt/extra-addons-odoo/ -R
+cd /opt/extra-addons-odoo/
 git clone https://github.com/odoo/odoo.git
+git checkout 14.0
 ```

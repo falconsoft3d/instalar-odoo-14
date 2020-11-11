@@ -123,3 +123,10 @@ http -> https
 web.base.url.freeze
 True
 ```
+
+# 11- Instalando el certificado digital ( https://certbot.eff.org/lets-encrypt/ubuntuxenial-nginx )
+```
+mkdir /opt/extra-addons-odoo
+chown odoo: /opt/extra-addons-odoo/ -R
+git clone https://github.com/odoo/odoo.git
+```

@@ -103,6 +103,11 @@ sudo pip3 install signxml
 sudo pip3 install pdf417gen
 ```
 
+```
+sudo apt-get install python-m2crypto ó pip3 install pycrypto
+```
+
+
 # 10- Instalando el certificado digital ( https://certbot.eff.org/lets-encrypt/ubuntuxenial-nginx )
 ```
 sudo apt-get update

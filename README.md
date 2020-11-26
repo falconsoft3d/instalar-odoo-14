@@ -104,9 +104,11 @@ sudo pip3 install pdf417gen
 ```
 
 ```
-sudo apt-get install python-m2crypto ó pip3 install pycrypto
+pip3 install pycrypto
 ```
-
+```
+sudo apt-get install python-m2crypto
+```
 
 # 10- Instalando el certificado digital ( https://certbot.eff.org/lets-encrypt/ubuntuxenial-nginx )
 ```

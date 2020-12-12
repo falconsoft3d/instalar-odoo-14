@@ -139,3 +139,11 @@ cd /opt/extra-addons-odoo/
 git clone https://github.com/odoo/odoo.git
 git checkout 14.0
 ```
+
+# 12- Actualizar Odoo all
+```
+/etc/init.d/odoo stop
+su - odoo -s /bin/bash
+odoo -d db11-spain -u all --stop-after-init --logfile=/dev/stdout
+/etc/init.d/odoo start
+```

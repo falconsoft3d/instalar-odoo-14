@@ -162,5 +162,16 @@ odoo shell -d db11-spain
 mod=env['ir.module.module'].search([('name','=','purchase_request')])
 print(mod)
 
+products=env['product.template'].search([('type', '=', 'consu')])
+for product in products:
+    try:
+        print(product.id)
+        print('Modificando')
+        product.type = 'product'
+    except:
+        print('error')
+
+env.cr.commit()
+
 /etc/init.d/odoo start
 ```

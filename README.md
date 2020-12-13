@@ -158,5 +158,9 @@ find / -name "odoo"
 /etc/init.d/odoo stop
 su - odoo -s /bin/bash
 odoo shell -d db11-spain
+
+mod=env['ir.module.module'].search([('name','=','purchase_request')])
+print(mod)
+
 /etc/init.d/odoo start
 ```

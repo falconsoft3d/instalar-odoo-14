@@ -147,3 +147,8 @@ su - odoo -s /bin/bash
 odoo -d db11-spain -u all --stop-after-init --logfile=/dev/stdout
 /etc/init.d/odoo start
 ```
+
+# 13- Buscar Odoo en Linux
+```
+find / -name "odoo"
+```

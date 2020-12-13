@@ -152,3 +152,11 @@ odoo -d db11-spain -u all --stop-after-init --logfile=/dev/stdout
 ```
 find / -name "odoo"
 ```
+
+# 14- Shell Odoo
+```
+/etc/init.d/odoo stop
+su - odoo -s /bin/bash
+odoo shell -d db11-spain
+/etc/init.d/odoo start
+```

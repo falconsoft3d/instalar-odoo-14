@@ -103,6 +103,17 @@ sudo pip3 install signxml
 sudo pip3 install pdf417gen
 ```
 
+# 10b- Instalando m2crypto en MAC.
+```
+$> brew install openssl
+$> brew install swig
+$> env LDFLAGS="-L$(brew --prefix openssl)/lib" \
+CFLAGS="-I$(brew --prefix openssl)/include" \
+SWIG_FEATURES="-cpperraswarn -includeall -I$(brew --prefix openssl)/include" \
+pip install m2crypto
+```
+
+
 ```
 pip3 install pycrypto
 ```

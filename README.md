@@ -69,6 +69,13 @@ sudo cp /usr/local/bin/wkhtmltopdf /usr/bin
 sudo cp /usr/local/bin/wkhtmltoimage /usr/bin
 ```
 
+## 6a- Instalar wkhtmltopdf para generar PDF en odoo
+```
+wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.focal_amd64.deb
+dpkg -i wkhtmltox_0.12.5-1.focal_amd64.deb
+apt install -f
+```
+
 # 7- Configuramos el conf de odoo
 ```
 nano /etc/odoo/odoo.conf

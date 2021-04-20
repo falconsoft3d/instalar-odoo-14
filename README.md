@@ -58,18 +58,8 @@ mkdir /opt/backup
 chown odoo: /opt/backup/ -R
 ```
 
+
 ## 6- Instalar wkhtmltopdf para generar PDF en odoo
-```
-sudo wget http://se.archive.ubuntu.com/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb
-sudo dpkg -i libpng12-0_1.2.54-1ubuntu1_amd64.deb
-
-sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb
-sudo dpkg -i wkhtmltox-0.12.1_linux-trusty-amd64.deb
-sudo cp /usr/local/bin/wkhtmltopdf /usr/bin
-sudo cp /usr/local/bin/wkhtmltoimage /usr/bin
-```
-
-## 6a- Instalar wkhtmltopdf para generar PDF en odoo
 ```
 wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.focal_amd64.deb
 dpkg -i wkhtmltox_0.12.5-1.focal_amd64.deb

@@ -246,3 +246,15 @@ upgrade_path =
 without_demo = False
 workers = 0
 ```
+
+```
+proxy_mode = True
+longpolling_port = 8072
+xmlrpc_port = 8069
+xmlrpc_interface = 127.0.0.1
+netrpc_interface = 127.0.0.1
+
+workers = 17
+limit_time_real = 1200
+limit_time_cpu = 600
+```

@@ -83,7 +83,11 @@ tail -f /var/log/odoo/odoo-server.log
 ssh-keygen
 cat ~/.ssh/id_rsa.pub
 ```
-
+# 9a- Librerias complementarias
+```
+sudo pip3 install paramiko
+sudo pip3 install xmltodict
+```
 # 10- Instalamos las librerias de Python
 ```
 pip3 install xmltodict

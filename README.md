@@ -87,7 +87,10 @@ cat ~/.ssh/id_rsa.pub
 ```
 sudo pip3 install paramiko
 sudo pip3 install xmltodict
+sudo pip3 install xmlsig
+sudo pip3 install num2words
 ```
+
 # 10- Instalamos las librerias de Python
 ```
 pip3 install xmltodict

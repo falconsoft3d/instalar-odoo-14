@@ -276,6 +276,7 @@ log_level = info
 
 # Ver el log
 ```
+tail -f /var/log/odoo/odoo-server.log
 Trae las 50 lineas antes de ese Error
-grep "2021-04-28 06:55:52,330 43141" odoo-server.log -B 50
+grep "2021-04-28 06:55:52,330 43141" /var/log/odoo/odoo-server.log -B 50
 ```

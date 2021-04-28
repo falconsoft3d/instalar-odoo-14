@@ -267,3 +267,9 @@ workers = 17
 limit_time_real = 1200
 limit_time_cpu = 600
 ```
+
+# Log en el odoo.conf
+```
+log_level = info
+(choose from 'info', 'debug_rpc', 'warn', 'test', 'critical', 'runbot', 'debug_sql', 'error', 'debug', 'debug_rpc_answer', 'notset')
+```

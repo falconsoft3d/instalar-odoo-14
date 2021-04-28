@@ -273,3 +273,9 @@ limit_time_cpu = 600
 log_level = info
 (choose from 'info', 'debug_rpc', 'warn', 'test', 'critical', 'runbot', 'debug_sql', 'error', 'debug', 'debug_rpc_answer', 'notset')
 ```
+
+# Ver el log
+```
+Trae las 50 lineas antes de ese Error
+grep "2021-04-28 06:55:52,330 43141" odoo-server.log -B 50
+```

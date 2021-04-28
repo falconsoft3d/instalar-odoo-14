@@ -89,6 +89,7 @@ sudo pip3 install paramiko
 sudo pip3 install xmltodict
 sudo pip3 install xmlsig
 sudo pip3 install num2words
+sudo pip3 install pandas
 ```
 
 # 10- Instalamos las librerias de Python

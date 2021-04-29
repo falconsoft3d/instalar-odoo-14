@@ -85,6 +85,8 @@ cat ~/.ssh/id_rsa.pub
 ```
 # 9a- Librerias complementarias
 ```
+sudo apt-get install build-essential python3-pil python3-lxml python3-dev python3-pip python3-setuptools npm nodejs git gdebi libldap2-dev libxml2-dev libxslt1-dev libjpeg-dev -y
+sudo npm install -g less less-plugin-clean-css -y && sudo ln -s /usr/bin/nodejs /usr/bin/node
 sudo pip3 install paramiko
 sudo pip3 install xmltodict
 sudo pip3 install xmlsig

@@ -284,3 +284,12 @@ tail -f /var/log/odoo/odoo-server.log
 Trae las 50 lineas antes de ese Error
 grep "2021-04-28 06:55:52,330 43141" /var/log/odoo/odoo-server.log -B 50
 ```
+
+# Otra forma de instala odoo
+```
+https://github.com/Yenthe666/InstallScript
+
+sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/14.0/odoo_install.sh
+sudo chmod +x odoo_install.sh
+sudo ./odoo_install.sh
+```

@@ -11,9 +11,16 @@ Marlon Falcón Hernández | Madrid, España
 
 ![Alt text](https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/logo-ynext.png?raw=true "Ynext")
 
+
+
+
 ## 0- Creamos una cuenta en Digital Ocean
 https://m.do.co/c/7f5c3af8d6bb
 
+## 0A- Copiamos la clave de acceso del server para que no las pidas mas
+```linux
+ssh-copy-id root@159.89.29.226
+```
 
 ## 1- Actualizamos el sistema
 

@@ -19,7 +19,7 @@ https://m.do.co/c/7f5c3af8d6bb
 
 ## 0A- Copiamos la clave de acceso del server para que no las pidas mas
 ```linux
-ssh-copy-id root@159.89.29.226
+ssh-copy-id root@159.89.29.221
 ```
 
 ## 1- Actualizamos el sistema

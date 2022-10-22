@@ -174,6 +174,7 @@ git checkout 14.0
 /etc/init.d/odoo stop
 su - odoo -s /bin/bash
 odoo -d db11-spain -u all --stop-after-init --logfile=/dev/stdout
+odoo -d db16-spain -u sis_base --i18n-overwrite --stop-after-init --logfile=/dev/stdout
 /etc/init.d/odoo start
 ```
 

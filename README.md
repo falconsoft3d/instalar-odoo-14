@@ -22,6 +22,9 @@ https://m.do.co/c/7f5c3af8d6bb
 ssh-copy-id root@159.89.29.221
 ```
 
+```linux
+ufw allow 80,8069,8072,62222,3010,3014/tcp
+```
 ## 1- Actualizamos el sistema
 
 ```linux

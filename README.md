@@ -89,6 +89,15 @@ dpkg -i wkhtmltox_0.12.5-1.focal_amd64.deb
 apt install -f
 ```
 
+## 6a- Si te falla el paso  6, Instalar wkhtmltopdf para generar PDF en odoo. En ubuntu 22.04.
+```
+wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb
+wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.bionic_amd64.deb
+sudo apt install ./libssl1.1_1.1.0g-2ubuntu4_amd64.deb
+sudo apt install ./wkhtmltox_0.12.6-1.bionic_amd64.deb
+```
+
+
 # 7- Configuramos el conf de odoo
 ```
 nano /etc/odoo/odoo.conf

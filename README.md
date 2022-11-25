@@ -16,6 +16,7 @@ Marlon Falcón Hernández | Madrid, España
 
 ## filestore Odoo
 ```linux
+scp -r root@143.120.152.112:/var/lib/odoo/.local/share/Odoo/filestore/db14-credit-ven/* .
 dump
 /var/lib/odoo/.local/share/Odoo/filestore/db14-credit-ven/
 ```

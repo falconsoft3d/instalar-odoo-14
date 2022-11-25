@@ -56,6 +56,10 @@ server_name j.wemakeyourdayeasy.com 11.64.123.12;
 nginx -s reload
 ```
 
+```
+tail -f /var/log/nginx/access.log
+tail -f /var/log/nginx/error.log
+```
 ## 4 - Creamos Carpeta Extra-addons
 ```linux
 mkdir /opt/extra-addons

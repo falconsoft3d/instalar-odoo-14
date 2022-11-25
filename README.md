@@ -8,11 +8,17 @@ Marlon Falcón Hernández | Madrid, España
 - Github: https://github.com/falconsoft3d
 - linkedin: https://linkedin.com/in/marlon-falcón-3a2aa9a4
 
+## 0A- Copiamos la clave de acceso del server para que no las pidas mas
+```linux
 
 ![Alt text](https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/logo-ynext.png?raw=true "Ynext")
+```
 
-
-
+## filestore Odoo
+```linux
+dump
+/var/lib/odoo/.local/share/Odoo/filestore/db14-credit-ven/
+```
 
 ## 0- Creamos una cuenta en Digital Ocean
 https://m.do.co/c/7f5c3af8d6bb

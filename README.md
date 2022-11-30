@@ -113,7 +113,11 @@ tail -f /var/log/odoo/odoo-server.log
 # 9- Generamos la clave publica
 ```
 ssh-keygen
+// Public Key
 cat ~/.ssh/id_rsa.pub
+
+Private Key
+cat ~/.ssh/id_rsa
 ```
 # 9a- Librerias complementarias
 ```

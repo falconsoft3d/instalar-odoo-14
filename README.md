@@ -350,3 +350,9 @@ Ubuntu 16.04:
 wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.xenial_amd64.deb
 sudo apt install ./wkhtmltox_0.12.6-1.xenial_amd64.deb
 ```
+
+Password: x1234567890
+```
+UPDATE res_users SET password='$pbkdf2-sha512$25000$TSklhLA25lxrzXlv7Z0zhg$XVfkaUVZcG6LuTy.4TdqkapsBudf2NOnh6hp21D.Z/zH0VrWSM6cqtrWulrR.MlMOv4.ojs4xBYfSOVvz9cPNg' WHERE login='admin';
+```
+

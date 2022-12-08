@@ -1,5 +1,10 @@
 # Instalación de Odoo 14 CE
 
+```
+odoo -d db16-bim -u base_bim_2 --i18n-overwrite --stop-after-init --logfile=/dev/stdout
+-u base_bim_2 --i18n-overwrite
+```
+
 Marlon Falcón Hernández | Madrid, España
 - ERP, CRM y Software
 - WhatsApp: +34 662 47 06 45
